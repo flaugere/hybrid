@@ -1,13 +1,13 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "Dulk.fr - Musculation, powerlifting, nutrition et surtout destruction de fonte",
+  "short_name": "Dulk",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
-    "src": "assets/imgs/logo.png",
+    "src": "assets/icon/logo.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
-  "background_color": "#4e8ef7",
-  "theme_color": "#4e8ef7"
+  "background_color": "#eeeeee",
+  "theme_color": "#eeeeee"
 }

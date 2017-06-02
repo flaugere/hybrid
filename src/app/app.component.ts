@@ -14,7 +14,7 @@ import { MenuMapping } from './../pages';
       <ion-menu [content]="content" persistent="true">
         <ion-header>
           <ion-toolbar color="primary">
-            <ion-title>{{title}}</ion-title>
+            <ion-title><img src="/assets/icon/logo.png" alt="{{title}}" /></ion-title>
           </ion-toolbar>
         </ion-header>
         <ion-content>

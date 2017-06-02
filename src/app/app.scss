@@ -24,7 +24,13 @@
     display: flex;
 }
 
-
+ion-menu {
+  ion-title {
+    img {
+      height: 30px;
+    }
+  }
+}
 ion-split-pane {
     &.split-pane-visible {
         ion-menu{

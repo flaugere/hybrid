@@ -1,5 +1,5 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { WPHCModule } from './app.module';
+import { AppModule } from './app.module';
 
-platformBrowserDynamic().bootstrapModule(WPHCModule);
+platformBrowserDynamic().bootstrapModule(AppModule);

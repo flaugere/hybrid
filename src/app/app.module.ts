@@ -2,7 +2,7 @@ import { NgModule, ErrorHandler, APP_INITIALIZER, Injector } from '@angular/core
 import { Http, HttpModule } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LOCATION_INITIALIZED } from '@angular/common';
+import { LOCATION_INITIALIZED, PathLocationStrategy, LocationStrategy } from '@angular/common';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -78,7 +78,9 @@ export function appInitializerTranslateFactory(translate: TranslateService, inje
     BrowserModule,
     HttpModule,
     BrowserAnimationsModule,
-    IonicModule.forRoot(WPHC, {}, {
+    IonicModule.forRoot(WPHC, {
+      locationStrategy: 'path'
+    }, {
       links: DeepLinkerLnks
     }),
     ...STORE,
